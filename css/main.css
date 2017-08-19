@@ -1,0 +1,66 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-weight: normal;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.body-header {
+	width: 100%;
+	height: 30%;
+	margin: 50x;
+
+	/* for floating two divs side by side*/
+	overflow: hidden; 
+	background-color: yellow;
+}
+
+.body-name {
+	font-size: 100px;
+	padding: 10px 0px 20px 100px;
+	width: 45%;
+	height: 30%;
+
+	/* for floating two divs side by side*/
+	float:left; 
+	background-color: green;
+}
+
+.body-description {
+	font-size: 23px;
+	padding: 80px 100px 0px 0px;
+	width: 40%;
+	height: 30%;
+	overflow-wrap: break-word;
+
+	/* for floating two divs side by side*/
+	float:right;
+	background-color: blue;
+}
+
+.body-button {
+	background-color: rgb(118,118,118);
+	min-height: 70%;
+	text-align: center;
+	clear: both;
+}
+
+.button {
+	font-size: 20px;
+	max-width: 150px;
+	color: rgb(0,0,0);
+	margin: 20px 20px 20px 20px;
+	background-color: rgb(118,118,118);
+}
+
+.button-icon {
+	width: 100px;
+	height: 100px;
+}
