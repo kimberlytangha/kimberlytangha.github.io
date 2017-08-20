@@ -1,5 +1,5 @@
 var $menuOpt = [ "Experience", "Projects", "Skills & Coursework", "Hackathons", "Conferences" ];
-var $keyWords = [ "developer.", "learner.", "hacker.", "cyclist." ];
+var $keyWords = [ "developer.", "student.", "hacker.", "cyclist." ];
 
 var buildMenu = function(options) {
 	for(i = 0; i < $menuOpt.length; i++){
@@ -52,7 +52,7 @@ TxtRotate.prototype.tick = function() {
 	} else if (this.isDeleting && this.txt === '') {
 		this.isDeleting = false;
 		this.loopNum++;
-		delta = 800;
+		delta = 900;
 	}
 
 	setTimeout(function() {
@@ -72,7 +72,7 @@ window.onload = function() {
 	
 	var css = document.createElement("style");
 	css.type = "text/css";
-	css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #58BC82 }";
 	document.body.appendChild(css);
 };
 
