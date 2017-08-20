@@ -57,7 +57,6 @@ body, label {
 }
 
 .body-button-wrapper {
-	/*text-align: center;*/
 	clear: both;
 	left: -1000px;
 	position: absolute;
@@ -72,14 +71,15 @@ body, label {
     background-color: rgb(45,45,45);
     margin: 0px 30px 0px 30px;
 	border: none;
+	outline: 0;
 	/*background-color: blue;*/
-/*	outline: 0;*/ /*uncoment later when done */
 }
 
 .button-icon {
 	width: 130px;
 	height: 130px;
 	margin: 0px 0px 7px 0px;
+
 /*	background-color: orange;*/
 }
 
@@ -95,13 +95,14 @@ button > img:hover {
     position: fixed;
     bottom: -300px;
     width: 100%;
-    /* for floating two divs side by side*/
+
     /*background-color: blue;*/
 }
 
 .social-icon {
     width: 65px;
 	height: 65px;
+	padding: 0px 1px 0px 1px;
 /*    background-color: blue;*/
 }
 
@@ -121,6 +122,5 @@ label {
 
 .social-links-wrapper > p {
     font-size: 20px;
-/*    padding-bottom:6px;*/
     color: rgb(190,190,190);
 }
