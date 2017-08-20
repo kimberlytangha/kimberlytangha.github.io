@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319a70e5-3f5e-45cb-a249-685af24e8ab7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Conferences.png" afterPath="$PROJECT_DIR$/img/Conferences.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Experience.png" afterPath="$PROJECT_DIR$/img/Experience.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/GitHub.png" afterPath="$PROJECT_DIR$/img/GitHub.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Hackathons.png" afterPath="$PROJECT_DIR$/img/Hackathons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/LinkedIn.png" afterPath="$PROJECT_DIR$/img/LinkedIn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Projects.png" afterPath="$PROJECT_DIR$/img/Projects.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Skills &amp; Coursework.png" afterPath="$PROJECT_DIR$/img/Skills &amp; Coursework.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Strava.png" afterPath="$PROJECT_DIR$/img/Strava.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/header-1.jpg" afterPath="$PROJECT_DIR$/img/header-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="120" column="2" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="27" />
+            <state relative-caret-position="482">
+              <caret line="52" column="2" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -37,17 +29,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="346">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="383">
               <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="75" />
               <folding />
             </state>
@@ -81,6 +83,7 @@
         <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -319,26 +322,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="120" column="2" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="27" />
+        <state relative-caret-position="383">
+          <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="346">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="75" />
+        <state relative-caret-position="482">
+          <caret line="52" column="2" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="29" />
           <folding />
         </state>
       </provider>

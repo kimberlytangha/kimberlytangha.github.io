@@ -24,22 +24,25 @@ body, label {
 
 	/* for floating two divs side by side*/
 	overflow: hidden;
+
 }
 
 .body-name {
 	font-size: 100px;
 	padding: 30px 0px 30px 100px;
+    height: 100%;
 	text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
 	/*width: 45%;*/
-	height: 30%;
 	top: -500px;
     position: absolute;
+    width: 50%;
 
 	/*background-color: green;*/
 }
 
 .body-description {
-	font-size: 25px;
+	font-size: 27px;
+	height: 100%;
 	padding: 80px 100px 0px 0px;
 	text-shadow: 2px 2px 20px rgba(0,0,0,0.7);
 	width: 40%;
@@ -47,7 +50,7 @@ body, label {
 	position: absolute;
 	overflow-wrap: break-word;
 
-	/*background-color: blue;*/
+/*	background-color: blue;*/
 }
 
 .body-main-wrapper {
