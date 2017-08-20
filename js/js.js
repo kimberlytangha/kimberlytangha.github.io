@@ -9,7 +9,7 @@ var buildMenu = function(options) {
 		$(".body-button-wrapper").append($button);
 
 		// icon
-		var $img = "../img/" + title + ".png"
+		var $img = "img/" + title + ".png"
 		var $icon = $('<img/>').attr("src", $img).addClass("button-icon");
 		$button.append($icon);
 
@@ -42,7 +42,7 @@ TxtRotate.prototype.tick = function() {
 	this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 	var that = this;
-	var delta = 150 - Math.random() * 100;
+	var delta = 150 - Math.random() * 100; // delete speed
 
 	if (this.isDeleting) { delta /= 2; }
 
@@ -52,7 +52,7 @@ TxtRotate.prototype.tick = function() {
 	} else if (this.isDeleting && this.txt === '') {
 		this.isDeleting = false;
 		this.loopNum++;
-		delta = 900;
+		delta = 200;
 	}
 
 	setTimeout(function() {
@@ -61,7 +61,7 @@ TxtRotate.prototype.tick = function() {
 };
 
 window.onload = function() {
-	var elements = document.getElementsByClassName('txt-rotate');
+	var elements = document.getElementsByClassName("txt-rotate");
 	for (var i=0; i<elements.length; i++) {
 		var toRotate = $keyWords;
 		var period = 2000;
@@ -78,4 +78,17 @@ window.onload = function() {
 
 $(document).ready(function() {
 	buildMenu($menuOpt);
+
+    var blockMovements = function() {
+        var speed = 1000;
+        var slowerSpeed = speed + 700;
+
+        $(".body-button-wrapper").animate({left: $(".body-button-wrapper").parent().width() / 2 - $(".body-button-wrapper").width() / 2 }, speed);
+        $(".body-description").animate({right: '0px'}, speed);
+        $(".body-name").animate({top: '0px'}, speed);
+        $(".social-links-wrapper").animate({bottom: '0px'}, slowerSpeed);
+    }
+
+    blockMovements();
+
 });

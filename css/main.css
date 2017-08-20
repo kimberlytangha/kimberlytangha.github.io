@@ -8,59 +8,58 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     background: transparent;
 }
 
-body {
+body, label {
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(45,45,45);
 }
 
-.body-header {
+.body-header-wrapper {
 	width: 100%;
-	height: 30%;
+	height: 43%;
 	margin: 50x;
 	color: white;
     background-image: url("../img/header-1.jpg");
     background-size: cover;
+    position: absolute;
 
 	/* for floating two divs side by side*/
-	overflow: hidden; 
-	/*background-color: yellow;*/
+	overflow: hidden;
 }
 
 .body-name {
 	font-size: 100px;
 	padding: 30px 0px 30px 100px;
-	text-shadow: 5px 5px 10px rgba(0,0,0,1.5);
-	width: 45%;
+	text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
+	/*width: 45%;*/
 	height: 30%;
+	top: -500px;
+    position: absolute;
 
-	/* for floating two divs side by side*/
-	float:left; 
 	/*background-color: green;*/
 }
 
 .body-description {
 	font-size: 25px;
 	padding: 80px 100px 0px 0px;
-	text-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+	text-shadow: 2px 2px 20px rgba(0,0,0,0.7);
 	width: 40%;
-	height: 30%;
+	right: -800px;
+	position: absolute;
 	overflow-wrap: break-word;
 
-	/* for floating two divs side by side*/
-	float:right;
 	/*background-color: blue;*/
 }
 
 .body-main-wrapper {
-    border-style: solid;
-    background-color: rgb(45,45,45);
-    height: 500px;
 }
 
 .body-button-wrapper {
-/*	min-height: 420px;*/
-	text-align: center;
+	/*text-align: center;*/
 	clear: both;
+	left: -1000px;
+	position: absolute;
+/*    background-color: yellow;*/
+	bottom: 200px;
 }
 
 .button {
@@ -68,14 +67,22 @@ body {
 	max-width: 150px;
 	color: rgb(0,0,0);
     background-color: rgb(45,45,45);
-    margin: 80px 20px 0px 20px;
+    margin: 0px 30px 0px 30px;
 	border: none;
+	/*background-color: blue;*/
 /*	outline: 0;*/ /*uncoment later when done */
 }
 
 .button-icon {
 	width: 130px;
 	height: 130px;
+	margin: 0px 0px 7px 0px;
+/*	background-color: orange;*/
+}
+
+button > img:hover {
+    opacity: 0.8 !important;
+    filter: invert(20);
 }
 
 .social-links-wrapper {
@@ -83,20 +90,34 @@ body {
     padding: 20px 0px 15px 0px;
 
     position: fixed;
-    bottom: 0;
+    bottom: -300px;
     width: 100%;
     /* for floating two divs side by side*/
     /*background-color: blue;*/
 }
 
 .social-icon {
-    width: 70px;
-	height: 70px;
-	margin-left: 3px;
+    width: 65px;
+	height: 65px;
+/*    background-color: blue;*/
 }
 
-/* unvisited link */
 a:link {
     color: red;
     text-decoration: none;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+label {
+    font-size: 25px;
+    color: rgb(70,181,117);
+}
+
+.social-links-wrapper > p {
+    font-size: 20px;
+/*    padding-bottom:6px;*/
+    color: rgb(190,190,190);
 }

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319a70e5-3f5e-45cb-a249-685af24e8ab7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Conferences.png" afterPath="$PROJECT_DIR$/img/Conferences.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Email.png" afterPath="$PROJECT_DIR$/img/Email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Experience.png" afterPath="$PROJECT_DIR$/img/Experience.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/GitHub.png" afterPath="$PROJECT_DIR$/img/GitHub.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Hackathons.png" afterPath="$PROJECT_DIR$/img/Hackathons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/LinkedIn.png" afterPath="$PROJECT_DIR$/img/LinkedIn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Projects.png" afterPath="$PROJECT_DIR$/img/Projects.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Skills &amp; Coursework.png" afterPath="$PROJECT_DIR$/img/Skills &amp; Coursework.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Strava.png" afterPath="$PROJECT_DIR$/img/Strava.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,31 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="374">
+              <caret line="120" column="2" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state relative-caret-position="42">
+              <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -53,7 +59,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>body-button-wrapper</find>
+      <find>-100</find>
+      <find>background-color</find>
+      <find>body-header</find>
     </findStrings>
+    <replaceStrings>
+      <replace>body-header-wrapper</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,8 +78,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -107,11 +120,6 @@
               <item name="peachykeen9.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="peachykeen9.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="peachykeen9.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="peachykeen9.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="peachykeen9.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +285,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -294,18 +303,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="181">
+          <caret line="343" column="16" lean-forward="false" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="120" column="2" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="74" column="75" lean-forward="false" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="75" />
           <folding />
         </state>
       </provider>
