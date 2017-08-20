@@ -1,12 +1,12 @@
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font-weight: normal;
-        vertical-align: baseline;
-        background: transparent;
-    }
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -19,7 +19,7 @@ body {
 
 	/* for floating two divs side by side*/
 	overflow: hidden; 
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 .body-name {
@@ -30,7 +30,7 @@ body {
 
 	/* for floating two divs side by side*/
 	float:left; 
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .body-description {
@@ -42,12 +42,12 @@ body {
 
 	/* for floating two divs side by side*/
 	float:right;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 
-.body-button {
-	background-color: rgb(118,118,118);
-	min-height: 70%;
+.body-button-wrapper {
+	background-color: rgb(140,140,140);
+/*	min-height: 420px;*/
 	text-align: center;
 	clear: both;
 }
@@ -56,11 +56,26 @@ body {
 	font-size: 20px;
 	max-width: 150px;
 	color: rgb(0,0,0);
-	margin: 20px 20px 20px 20px;
-	background-color: rgb(118,118,118);
+	margin: 60px 20px 60px 20px;
+	background-color: rgb(150,150,150);
+	border: none;
+/*	outline: 0;*/
 }
 
 .button-icon {
 	width: 100px;
 	height: 100px;
 }
+
+.social-links-wrapper {
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+    /* for floating two divs side by side*/
+    /*background-color: blue;*/
+}
+
+.social-icon {
+    width: 80px;
+	height: 80px;
+}
+
