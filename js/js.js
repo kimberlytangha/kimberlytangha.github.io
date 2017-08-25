@@ -83,12 +83,13 @@ $(document).ready(function() {
         var speed = 1000;
         var slowerSpeed = speed + 700;
 
-        /*$(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);*/
+        $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);
         $(".body-description").animate({right: '0px'}, speed);
-        $(".body-name").animate({top: '0px'}, speed);
+        $(".body-info").animate({top: '0px'}, speed);
+    /*    $(".body-tagline").animate({top: '0px'}, speed);*/
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
-    /*blockMovements();*/
+    blockMovements();
 
 });

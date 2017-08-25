@@ -7,13 +7,18 @@ body {
 }
 
 .body-info {
-    /*outline: black dotted thick;*/
+    outline: black dotted thick;
+    position: relative;
     color: white;
+    text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
 }
 
 .body-description {
-   /* outline: black dotted thick;*/
+    outline: black dotted thick;
     color: white;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.7);
+    float: left;
+    position: absolute;
 }
 
 .button {
@@ -21,11 +26,12 @@ body {
 }
 
 .buttons-container {
-   /* outline: black dotted thick;*/
+    outline: black dotted thick;
     width: 100%;
     margin: auto;
     text-align: center;
     word-wrap: break-word;
+    position: relative;
     float: left;
 }
 
@@ -39,20 +45,17 @@ a:link {
     text-decoration: none;
 }
 
-
-
 .social-container {
-   /* outline: black dotted thick;*/
+    outline: black dotted thick;
     text-align: center;
     margin-top: 50px;
     height: 100px;
     float:left;
-    bottom: 0px;
     position: relative;
 }
 
 .social-container > p {
-    color: rgb(190,190,190);
+    color: rgb(160,160,160);
 }
 
 .social-icon {

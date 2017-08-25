@@ -50,9 +50,9 @@
     body {
         background-size: 100% 300px;
     }
-    /*.body-info > p {
-       margin: 20px 0;
-    }*/
+    .body-info {
+            top: -500px;
+    }
     .body-name {
       font-size: 85px;
     }
@@ -61,6 +61,11 @@
     }
     .body-description {
       font-size: 20px;
+      padding-top: 30px;
+      right: -800px;
+    }
+    .buttons-container {
+        left: -1000px;
     }
     .button-label {
       font-size: 25px;
@@ -69,6 +74,9 @@
         width: 70px;
         height: 70px;
         margin: 0px 0px 7px 0px;
+    }
+    .social-container {
+        bottom: -200px;
     }
     .social-icon {
         width: 55px;
@@ -145,9 +153,9 @@
     body {
         background-size: 100% 350px;
     }
-/*    .body-info > p {
-       margin: 20px 0;
-    }*/
+    .body-info {
+        top: -500px;
+    }
     .body-name {
       font-size: 100px;
     }
@@ -155,7 +163,12 @@
       font-size: 80px;
     }
     .body-description {
+      padding-top: 70px;
       font-size: 22px;
+      right: -800px;
+    }
+    .buttons-container {
+        left: -1000px;
     }
     .button-label {
       font-size: 25px;
@@ -164,6 +177,9 @@
     	width: 100px;
     	height: 100px;
     	margin: 0px 0px 7px 0px;
+    }
+    .social-container {
+            bottom: -200px;
     }
     .social-icon {
         width: 65px;
