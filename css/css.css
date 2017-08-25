@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    /*background-color: rgb(45,45,45);*/
+}
+
+.body-name {
+    outline: black dotted thick;
+}
+
+.body-description {
+    outline: black dotted thick;
+}

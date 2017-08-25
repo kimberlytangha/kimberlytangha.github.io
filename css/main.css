@@ -12,32 +12,42 @@ body, label {
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(45,45,45);
 }
+/*
+.body-wrapper {
+    float: left;
+}
 
 .body-header-wrapper {
 	width: 100%;
-	height: 43%;
+	height: 45%;
 	margin: 50x;
 	color: white;
-    background-image: url("../img/header-1.jpg");
-    background-size: cover;
+    *//*background-image: url("../img/header-1.jpg");
+    background-size: cover;*//*
+    *//*background-color: white;*//*
     position: absolute;
 
-	/* for floating two divs side by side*/
+	*//* for floating two divs side by side*//*
 	overflow: hidden;
+	float: left;
 
 }
 
 .body-name {
-	font-size: 100px;
+	font-size: 120px;
 	padding: 30px 0px 30px 100px;
     height: 100%;
 	text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
-	/*width: 45%;*/
+	*//*width: 45%;*//*
 	top: -500px;
     position: absolute;
     width: 50%;
 
-	/*background-color: green;*/
+	*//*background-color: green;*//*
+}
+
+.body-i-am {
+    font-size: 80px !important;
 }
 
 .body-description {
@@ -50,18 +60,18 @@ body, label {
 	position: absolute;
 	overflow-wrap: break-word;
 
-/*	background-color: blue;*/
-}
-
-.body-main-wrapper {
+*//*	background-color: blue;*//*
 }
 
 .body-button-wrapper {
-	clear: both;
-	left: -1000px;
-	position: absolute;
-/*    background-color: yellow;*/
-	bottom: 200px;
+    width: 100%;
+    height: 45%;
+    float: right;
+    clear:both;
+
+	*//*left: -1000px;*//*
+	*//*position: relative;*//*
+    background-color: yellow;
 }
 
 .button {
@@ -72,15 +82,20 @@ body, label {
     margin: 0px 30px 0px 30px;
 	border: none;
 	outline: 0;
-	/*background-color: blue;*/
+	background-color: blue;
+}
+
+.button-label {
+    font-size: 25px;
+    color: rgb(70,181,117);
 }
 
 .button-icon {
-	width: 130px;
-	height: 130px;
+	width: 115px;
+	height: 115px;
 	margin: 0px 0px 7px 0px;
 
-/*	background-color: orange;*/
+	background-color: orange;
 }
 
 button > img:hover {
@@ -96,14 +111,14 @@ button > img:hover {
     bottom: -300px;
     width: 100%;
 
-    /*background-color: blue;*/
+    *//*background-color: blue;*//*
 }
 
 .social-icon {
     width: 65px;
 	height: 65px;
 	padding: 0px 1px 0px 1px;
-/*    background-color: blue;*/
+*//*    background-color: blue;*//*
 }
 
 a:link {
@@ -113,14 +128,54 @@ a:link {
 
 .highlight {
     font-weight: 700;
-}
-
-label {
-    font-size: 25px;
     color: rgb(70,181,117);
 }
 
 .social-links-wrapper > p {
     font-size: 20px;
     color: rgb(190,190,190);
+}*/
+
+
+.body-wrapper {
+
+}
+
+.body-header {
+    clear: both;
+    height: 300px;
+
+}
+
+.body-title {
+    background-color: green;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.body-name {
+
+}
+
+.body-tagline {
+
+}
+
+.body-description {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.body-content {
+/*    need to fill in rest of screen*/
+    height: 500px;
+
+
+}
+
+.body-footer {
+
 }
