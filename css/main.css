@@ -118,7 +118,7 @@ button > img:hover {
     width: 65px;
 	height: 65px;
 	padding: 0px 1px 0px 1px;
-*//*    background-color: blue;*//*
+*//*    background-color: blue;*/
 }
 
 a:link {
@@ -134,7 +134,8 @@ a:link {
 .social-links-wrapper > p {
     font-size: 20px;
     color: rgb(190,190,190);
-}*/
+}
+/*
 
 
 .body-wrapper {
@@ -170,7 +171,9 @@ a:link {
 }
 
 .body-content {
-/*    need to fill in rest of screen*/
+*/
+/*    need to fill in rest of screen*//*
+
     height: 500px;
 
 
@@ -178,4 +181,4 @@ a:link {
 
 .body-footer {
 
-}
+}*/

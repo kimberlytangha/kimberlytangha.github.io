@@ -3,10 +3,19 @@ body {
     /*background-color: rgb(45,45,45);*/
 }
 
-.body-name {
+.body-info {
     outline: black dotted thick;
+}
+
+.body-name {
+    font-size: 120px;
+}
+
+.body-tagline {
+    font-size: 70px !important;
 }
 
 .body-description {
     outline: black dotted thick;
+    font-size: 27px;
 }
