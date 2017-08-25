@@ -90,7 +90,7 @@ $(document).ready(function() {
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
-    var generatePopUp = function() {
+  /*  var generatePopUp = function() {
         $("#Hackathons").click(function () {
             $("#dialog").dialog({
                 modal: true,
@@ -102,9 +102,9 @@ $(document).ready(function() {
                 width: 600
             });
         });
-    };
+    };*/
 
     blockMovements();
-    generatePopUp();
+/*    generatePopUp();*/
 
 });
