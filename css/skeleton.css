@@ -118,13 +118,13 @@
        margin: 20px 0;
     }
     .body-name {
-      font-size: 45px;
+      font-size: 55px;
     }
     .body-tagline {
-      font-size: 36px;
+      font-size: 40px;
     }
     .body-description {
-      font-size: 9px;
+      font-size: 20px;
     }
     .buttons-container {
         padding: 50px 40px 100px 40px;
@@ -133,8 +133,8 @@
       font-size: 25px;
     }
     .button-icon {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         margin: 0px 0px 7px 0px;
     }
 }
