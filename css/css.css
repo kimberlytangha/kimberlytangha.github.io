@@ -31,6 +31,7 @@ body {
 .button-label {
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(70,181,117);
+    align: center;
 }
 
 .social-container {

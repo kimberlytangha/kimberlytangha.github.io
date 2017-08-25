@@ -5,7 +5,7 @@ var buildMenu = function(options) {
 	for(i = 0; i < $menuOpt.length; i++){
 		// button tag
 		var title = options[i];
-		var $button = $('<button/>').attr("id", title).addClass("button");
+		var $button = $('<li/>').attr("id", title).addClass("button");
 		$(".buttons-container").append($button);
 
 		// icon

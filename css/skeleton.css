@@ -112,29 +112,29 @@
   .offset-by-one-half.columns     { margin-left: 52%; }
 
     body {
-        background-size: 100% 45%;
+        background-size: 100% 300px;
     }
     .body-info > p {
        margin: 20px 0;
     }
     .body-name {
-      font-size: 55px;
+      font-size: 85px;
     }
     .body-tagline {
-      font-size: 40px;
+      font-size: 60px;
     }
     .body-description {
       font-size: 20px;
     }
     .buttons-container {
-        padding: 50px 40px 100px 40px;
+        line-height: 100px;
     }
     .button-label {
       font-size: 25px;
     }
     .button-icon {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
         margin: 0px 0px 7px 0px;
     }
 }
@@ -142,7 +142,7 @@
 /* Larger than Desktop HD */
 @media screen and (min-width: 1200px) {
     body {
-        background-size: 100% 55%;
+        background-size: 100% 65%;
     }
     .body-info > p {
        margin: 20px 0;
@@ -150,14 +150,11 @@
     .body-name {
       font-size: 100px;
     }
-    .body-tagline {
+    .body-tagline {s
       font-size: 80px;
     }
     .body-description {
       font-size: 20px;
-    }
-    .buttons-container {
-        padding: 50px 40px 100px 40px;
     }
     .button-label {
       font-size: 25px;
