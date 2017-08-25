@@ -11,21 +11,9 @@ body {
     color: white;
 }
 
-.body-name {
-    font-size: 120px;
-}
-
-.body-tagline {
-    font-size: 70px;
-}
-
 .body-description {
     outline: black dotted thick;
-    font-size: 20px;
     color: white;
-/*    position: absolute;
-    bottom: 0;
-    right: 0;*/
 }
 
 .button {
@@ -35,41 +23,32 @@ body {
 .buttons-container {
     outline: black dotted thick;
     width: 100%;
-    min-height: 200px;
     margin: auto;
-    margin-top: 35px;
-    text-align:center;
-
-
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .button-label {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
     color: rgb(70,181,117);
 }
-
-.button-icon {
-	width: 100px;
-	height: 100px;
-	margin: 0px 0px 7px 0px;
-}
-
 
 .social-container {
      outline: black dotted thick;
      text-align: center;
 }
 
-
 .social-container > p {
     font-size: 20px;
     color: rgb(190,190,190);
 }
 
-
 .social-icon {
     width: 65px;
 	height: 65px;
 	padding: 0px 1px 0px 1px;
+}
+
+.spacer {
+    min-height:30px;
 }

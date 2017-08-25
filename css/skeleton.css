@@ -47,19 +47,10 @@
         width: 85%;
         padding: 0;
     }
-    .body-name {
-        font-size: 40px;
-    }
-    .body-tagline {
-        font-size: 35px;
-    }
-    .body-description {
-        font-size: 20px;
-    }
 }
 
 /* For devices larger than 550px (phablet) */
-@media (min-width: 550px) {
+@media screen and (min-width: 550px) {
   .container {
     width: 80%; }
   .column,
@@ -120,26 +111,63 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
-  .body-name {
-          font-size: 40px;
-  }
-  .body-tagline {
-      font-size: 35px;
-  }
-  .body-description {
-      font-size: 20px;
-  }
-
+    body {
+        background-size: 100% 45%;
+    }
+    .body-info > p {
+       margin: 20px 0;
+    }
+    .body-name {
+      font-size: 45px;
+    }
+    .body-tagline {
+      font-size: 36px;
+    }
+    .body-description {
+      font-size: 9px;
+    }
+    .buttons-container {
+        padding: 50px 40px 100px 40px;
+    }
+    .button-label {
+      font-size: 25px;
+    }
+    .button-icon {
+        width: 100px;
+        height: 100px;
+        margin: 0px 0px 7px 0px;
+    }
 }
 
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    body {
+        background-size: 100% 55%;
+    }
+    .body-info > p {
+       margin: 20px 0;
+    }
+    .body-name {
+      font-size: 100px;
+    }
+    .body-tagline {
+      font-size: 80px;
+    }
+    .body-description {
+      font-size: 20px;
+    }
+    .buttons-container {
+        padding: 50px 40px 100px 40px;
+    }
+    .button-label {
+      font-size: 25px;
+    }
+    .button-icon {
+    	width: 100px;
+    	height: 100px;
+    	margin: 0px 0px 7px 0px;
+    }
+}
 
 
 /* Base Styles
