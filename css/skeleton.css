@@ -42,7 +42,7 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px (mobile) */
-@media (min-width: 400px) {
+@media screen and (min-width: 400px) {
     .container {
         width: 85%;
         padding: 0;
@@ -119,6 +119,16 @@
 
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
+
+  .body-name {
+          font-size: 40px;
+  }
+  .body-tagline {
+      font-size: 35px;
+  }
+  .body-description {
+      font-size: 20px;
+  }
 
 }
 
