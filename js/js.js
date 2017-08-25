@@ -5,12 +5,12 @@ var buildMenu = function(options) {
 	for(i = 0; i < $menuOpt.length; i++){
 		// button tag
 		var title = options[i];
-		var $button = $('<li/>').attr("id", title).addClass("button");
+		var $button = $('<li/>').addClass("button");
 		$(".buttons-container").append($button);
 
 		// icon
 		var $img = "img/" + title + ".png"
-		var $icon = $('<img/>').attr("src", $img).addClass("button-icon");
+		var $icon = $('<img/>').attr("src", $img).attr("id", title).addClass("button-icon");
 		$button.append($icon);
 
 		// label 
@@ -90,6 +90,21 @@ $(document).ready(function() {
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
+    var generatePopUp = function() {
+        $("#Hackathons").click(function () {
+            $("#dialog").dialog({
+                modal: true,
+                show: {
+                    effect: "fade",
+                    duration: 1000
+                },
+                height: 500,
+                width: 600
+            });
+        });
+    };
+
     blockMovements();
+    generatePopUp();
 
 });
