@@ -126,15 +126,12 @@
     .body-description {
       font-size: 20px;
     }
-    .buttons-container {
-        line-height: 100px;
-    }
     .button-label {
       font-size: 25px;
     }
     .button-icon {
-        width: 70px;
-        height: 70px;
+        width: 30px;
+        height: 30px;
         margin: 0px 0px 7px 0px;
     }
 }
