@@ -7,23 +7,12 @@ body {
 }
 
 .body-info {
-    outline: black dotted thick;
+    /*outline: black dotted thick;*/
     color: white;
 }
 
-/*
-.body-name {
-    font-size: 85px;
-}
-
-.body-tagline {
-    font-size: 60px;
-}
-
-*/
-
 .body-description {
-    outline: black dotted thick;
+   /* outline: black dotted thick;*/
     color: white;
 }
 
@@ -32,11 +21,12 @@ body {
 }
 
 .buttons-container {
-    outline: black dotted thick;
+   /* outline: black dotted thick;*/
     width: 100%;
     margin: auto;
     text-align: center;
     word-wrap: break-word;
+    float: left;
 }
 
 .button-label {
@@ -45,22 +35,27 @@ body {
     align: center;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 
 
 .social-container {
-     outline: black dotted thick;
-     text-align: center;
+   /* outline: black dotted thick;*/
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+    float:left;
+    bottom: 0px;
+    position: relative;
 }
 
 .social-container > p {
-    font-size: 20px;
     color: rgb(190,190,190);
 }
 
 .social-icon {
-    width: 65px;
-	height: 65px;
 	padding: 0px 1px 0px 1px;
 }
 

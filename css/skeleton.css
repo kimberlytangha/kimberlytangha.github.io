@@ -50,9 +50,9 @@
     body {
         background-size: 100% 300px;
     }
-    .body-info > p {
+    /*.body-info > p {
        margin: 20px 0;
-    }
+    }*/
     .body-name {
       font-size: 85px;
     }
@@ -69,6 +69,10 @@
         width: 70px;
         height: 70px;
         margin: 0px 0px 7px 0px;
+    }
+    .social-icon {
+        width: 55px;
+        height: 55px;
     }
 }
 
@@ -139,11 +143,11 @@
 /* Larger than Desktop HD */
 @media screen and (min-width: 1200px) {
     body {
-        background-size: 100% 65%;
+        background-size: 100% 350px;
     }
-    .body-info > p {
+/*    .body-info > p {
        margin: 20px 0;
-    }
+    }*/
     .body-name {
       font-size: 100px;
     }
@@ -160,6 +164,10 @@
     	width: 100px;
     	height: 100px;
     	margin: 0px 0px 7px 0px;
+    }
+    .social-icon {
+        width: 65px;
+    	height: 65px;
     }
 }
 
