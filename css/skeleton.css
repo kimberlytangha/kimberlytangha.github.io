@@ -47,6 +47,29 @@
         width: 85%;
         padding: 0;
     }
+    body {
+        background-size: 100% 300px;
+    }
+    .body-info > p {
+       margin: 20px 0;
+    }
+    .body-name {
+      font-size: 85px;
+    }
+    .body-tagline {
+      font-size: 60px;
+    }
+    .body-description {
+      font-size: 20px;
+    }
+    .button-label {
+      font-size: 25px;
+    }
+    .button-icon {
+        width: 70px;
+        height: 70px;
+        margin: 0px 0px 7px 0px;
+    }
 }
 
 /* For devices larger than 550px (phablet) */
@@ -111,29 +134,6 @@
   .offset-by-one-half.column,
   .offset-by-one-half.columns     { margin-left: 52%; }
 
-    body {
-        background-size: 100% 300px;
-    }
-    .body-info > p {
-       margin: 20px 0;
-    }
-    .body-name {
-      font-size: 85px;
-    }
-    .body-tagline {
-      font-size: 60px;
-    }
-    .body-description {
-      font-size: 20px;
-    }
-    .button-label {
-      font-size: 25px;
-    }
-    .button-icon {
-        width: 70px;
-        height: 70px;
-        margin: 0px 0px 7px 0px;
-    }
 }
 
 /* Larger than Desktop HD */
@@ -147,11 +147,11 @@
     .body-name {
       font-size: 100px;
     }
-    .body-tagline {s
+    .body-tagline {
       font-size: 80px;
     }
     .body-description {
-      font-size: 20px;
+      font-size: 22px;
     }
     .button-label {
       font-size: 25px;

@@ -11,6 +11,17 @@ body {
     color: white;
 }
 
+/*
+.body-name {
+    font-size: 85px;
+}
+
+.body-tagline {
+    font-size: 60px;
+}
+
+*/
+
 .body-description {
     outline: black dotted thick;
     color: white;
@@ -33,6 +44,9 @@ body {
     color: rgb(70,181,117);
     align: center;
 }
+
+
+
 
 .social-container {
      outline: black dotted thick;
