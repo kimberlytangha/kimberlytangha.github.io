@@ -80,8 +80,8 @@ $(document).ready(function() {
 	buildMenu($menuOpt);
 
     var blockMovements = function() {
-        var speed = 1000;
-        var slowerSpeed = speed + 700;
+        var speed = 1700;
+        var slowerSpeed = speed + 1200;
 
         $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);
         $(".body-description").animate({right: '0px'}, speed);

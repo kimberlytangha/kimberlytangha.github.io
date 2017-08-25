@@ -7,18 +7,25 @@ body {
 }
 
 .body-info {
-    outline: black dotted thick;
+/*    outline: black dotted thick;*/
     position: relative;
     color: white;
     text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
+    top: -500px;
 }
 
 .body-description {
-    outline: black dotted thick;
+/*    outline: black dotted thick;*/
     color: white;
     text-shadow: 2px 2px 20px rgba(0,0,0,0.7);
     float: left;
     position: absolute;
+    right: -800px;
+}
+
+li > img:hover {
+    opacity: 0.8 !important;
+    filter: invert(20);
 }
 
 .button {
@@ -26,13 +33,14 @@ body {
 }
 
 .buttons-container {
-    outline: black dotted thick;
+    /*outline: black dotted thick;*/
     width: 100%;
     margin: auto;
     text-align: center;
     word-wrap: break-word;
     position: relative;
     float: left;
+    left: -1400px;
 }
 
 .button-label {
@@ -46,12 +54,13 @@ a:link {
 }
 
 .social-container {
-    outline: black dotted thick;
+/*    outline: black dotted thick;*/
     text-align: center;
     margin-top: 50px;
     height: 100px;
-    float:left;
+    float: left;
     position: relative;
+    bottom: -400px;
 }
 
 .social-container > p {
