@@ -12,7 +12,7 @@ body, label {
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: rgb(45,45,45);
 }
-/*
+
 .body-wrapper {
     float: left;
 }
@@ -22,12 +22,12 @@ body, label {
 	height: 45%;
 	margin: 50x;
 	color: white;
-    *//*background-image: url("../img/header-1.jpg");
-    background-size: cover;*//*
-    *//*background-color: white;*//*
+    /*background-image: url("../img/header-1.jpg");
+    background-size: cover;*/
+    /*background-color: white;*/
     position: absolute;
 
-	*//* for floating two divs side by side*//*
+	/* for floating two divs side by side*/
 	overflow: hidden;
 	float: left;
 
@@ -38,12 +38,12 @@ body, label {
 	padding: 30px 0px 30px 100px;
     height: 100%;
 	text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
-	*//*width: 45%;*//*
+	/*width: 45%;*/
 	top: -500px;
     position: absolute;
     width: 50%;
 
-	*//*background-color: green;*//*
+	/*background-color: green;*/
 }
 
 .body-i-am {
@@ -60,7 +60,7 @@ body, label {
 	position: absolute;
 	overflow-wrap: break-word;
 
-*//*	background-color: blue;*//*
+/*	background-color: blue;*/
 }
 
 .body-button-wrapper {
@@ -69,8 +69,8 @@ body, label {
     float: right;
     clear:both;
 
-	*//*left: -1000px;*//*
-	*//*position: relative;*//*
+	/*left: -1000px;*/
+	/*position: relative;*/
     background-color: yellow;
 }
 
@@ -80,7 +80,7 @@ body, label {
 	color: rgb(0,0,0);
     background-color: rgb(45,45,45);
     margin: 0px 30px 0px 30px;
-	border: none;
+	border: 0px;
 	outline: 0;
 	background-color: blue;
 }
@@ -111,14 +111,14 @@ button > img:hover {
     bottom: -300px;
     width: 100%;
 
-    *//*background-color: blue;*//*
+    /*background-color: blue;*/
 }
 
 .social-icon {
     width: 65px;
 	height: 65px;
 	padding: 0px 1px 0px 1px;
-*//*    background-color: blue;*/
+/*    background-color: blue;*/
 }
 
 a:link {
@@ -135,6 +135,7 @@ a:link {
     font-size: 20px;
     color: rgb(190,190,190);
 }
+
 /*
 
 

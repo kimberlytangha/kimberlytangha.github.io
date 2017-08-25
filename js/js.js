@@ -1,4 +1,4 @@
-var $menuOpt = [ "Experience", "Projects", "Skills & Coursework", "Hackathons", "Conferences" ];
+var $menuOpt = [ "Experience", "Projects", "Skills", "Hackathons", "Conferences" ];
 var $keyWords = [ "developer.", "student.", "disruptor.", "hacker.", "cyclist." ];
 
 var buildMenu = function(options) {
@@ -6,7 +6,7 @@ var buildMenu = function(options) {
 		// button tag
 		var title = options[i];
 		var $button = $('<button/>').attr("id", title).addClass("button");
-		$(".body-button-wrapper").append($button);
+		$(".buttons-container").append($button);
 
 		// icon
 		var $img = "img/" + title + ".png"
@@ -83,12 +83,12 @@ $(document).ready(function() {
         var speed = 1000;
         var slowerSpeed = speed + 700;
 
-        /*$(".body-button-wrapper").animate({left: $(".body-button-wrapper").parent().width() / 2 - $(".body-button-wrapper").width() / 2 }, speed);*/
+        /*$(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);*/
         $(".body-description").animate({right: '0px'}, speed);
         $(".body-name").animate({top: '0px'}, speed);
-        $(".social-links-wrapper").animate({bottom: '0px'}, slowerSpeed);
+        $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
-    blockMovements();
+    /*blockMovements();*/
 
 });

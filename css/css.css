@@ -1,10 +1,14 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     /*background-color: rgb(45,45,45);*/
+    background-image: url("../img/header-1.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(45,45,45);
 }
 
 .body-info {
     outline: black dotted thick;
+    color: white;
 }
 
 .body-name {
@@ -12,10 +16,60 @@ body {
 }
 
 .body-tagline {
-    font-size: 70px !important;
+    font-size: 70px;
 }
 
 .body-description {
     outline: black dotted thick;
-    font-size: 27px;
+    font-size: 20px;
+    color: white;
+/*    position: absolute;
+    bottom: 0;
+    right: 0;*/
+}
+
+.button {
+    border: 0px solid black;
+}
+
+.buttons-container {
+    outline: black dotted thick;
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 35px;
+    text-align:center;
+
+
+}
+
+.button-label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: rgb(70,181,117);
+}
+
+.button-icon {
+	width: 100px;
+	height: 100px;
+	margin: 0px 0px 7px 0px;
+}
+
+
+.social-container {
+     outline: black dotted thick;
+     text-align: center;
+}
+
+
+.social-container > p {
+    font-size: 20px;
+    color: rgb(190,190,190);
+}
+
+
+.social-icon {
+    width: 65px;
+	height: 65px;
+	padding: 0px 1px 0px 1px;
 }
