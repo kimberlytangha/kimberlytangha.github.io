@@ -1,4 +1,4 @@
 # peachykeen9.github.io
-WORK IN PROGRESS
+(WORK IN PROGRESS)
 
-NOT COMPLETED
+Visit here: peachykeen9.github.io
