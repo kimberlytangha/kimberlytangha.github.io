@@ -60,7 +60,14 @@ li > img:hover {
     bottom: -400px;
 }
 
-.social-container > p {
+.social-text-top {
+    font-weight: 500;
+    color: rgb(160,160,160);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.social-text-bottom {
     color: rgb(160,160,160);
 }
 
