@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="319a70e5-3f5e-45cb-a249-685af24e8ab7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="61" column="78" lean-forward="false" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
+            <state relative-caret-position="468">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/css/skeleton.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -507,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="61" column="78" lean-forward="false" selection-start-line="61" selection-start-column="78" selection-end-line="61" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
@@ -535,6 +527,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding />
         </state>
       </provider>
