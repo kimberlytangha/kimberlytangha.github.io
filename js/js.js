@@ -19,7 +19,8 @@ var buildMenu = function(options) {
     };
 };
 
-var TxtRotate = function(el, toRotate, period) {
+// Text animation
+var txtRotateInit = function(el, toRotate, period) {
 	this.toRotate = toRotate;
 	this.el = el;
 	this.loopNum = 0;
@@ -29,7 +30,7 @@ var TxtRotate = function(el, toRotate, period) {
 	this.isDeleting = false;
 };
 
-TxtRotate.prototype.tick = function() {
+txtRotateInit.prototype.tick = function() {
 	var i = this.loopNum % this.toRotate.length;
 	var fullTxt = this.toRotate[i];
 
@@ -60,13 +61,13 @@ TxtRotate.prototype.tick = function() {
 	}, delta);
 };
 
-window.onload = function() {
+var textTyping = function() {
 	var elements = document.getElementsByClassName("txt-rotate");
 	for (var i=0; i<elements.length; i++) {
 		var toRotate = $keyWords;
 		var period = 2000;
 		if (toRotate) {
-			new TxtRotate(elements[i], toRotate, period);
+			new txtRotateInit(elements[i], toRotate, period);
 		}
 	}
 	
@@ -78,6 +79,7 @@ window.onload = function() {
 
 $(document).ready(function() {
 	buildMenu($menuOpt);
+    textTyping();
 
     var blockMovements = function() {
         var speed = 1700;
@@ -86,11 +88,10 @@ $(document).ready(function() {
         $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);
         $(".body-description").animate({right: '0px'}, speed);
         $(".body-info").animate({top: '0px'}, speed);
-    /*    $(".body-tagline").animate({top: '0px'}, speed);*/
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
-  /*  var generatePopUp = function() {
+    var generatePopUp = function() {
         $("#Hackathons").click(function () {
             $("#dialog").dialog({
                 modal: true,
@@ -102,9 +103,10 @@ $(document).ready(function() {
                 width: 600
             });
         });
-    };*/
+    };
 
     blockMovements();
-/*    generatePopUp();*/
+    generatePopUp();
+
 
 });
