@@ -93,7 +93,7 @@ a:link {
 
 .ui-dialog, .ui-dialog-buttonpane, button.ui-button {
     font-family: 'Courier New', Courier;
-    background: rgb(145,145,145);
+    background: rgb(160,160,160);
 }
 
 .ui-widget-header {
@@ -104,6 +104,7 @@ a:link {
 
 .ui-dialog-titlebar {
     font-size: 25px;
+    font-weight: 200;
     color: white;
 }
 
