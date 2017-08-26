@@ -9,7 +9,7 @@ body {
 /*    outline: black dotted thick;*/
     position: relative;
     color: white;
-    text-shadow: 10px 10px 20px rgba(0,0,0,4.0);
+    text-shadow: 10px 10px 20px rgba(0,0,0, 1);
     top: -500px;
 }
 
@@ -71,7 +71,7 @@ a:link {
 }
 
 .spacer {
-    min-height:30px;
+    min-height:45px;
 }
 
 .highlight {
@@ -79,17 +79,13 @@ a:link {
     color: rgb(70,181,117);
 }
 
-.no-close .ui-dialog-titlebar-close {
-  display: none;
+.no-close, .ui-dialog-titlebar-close {
+    display: none;
 }
 
 .ui-dialog, .ui-dialog-buttonpane, button.ui-button {
     font-family: 'Open Sans Condensed', sans-serif;
     background: rgb(140,140,140);
-}
-
-.ui-dialog {
-    font-size: 17px;
 }
 
 .ui-widget-header {
@@ -99,9 +95,26 @@ a:link {
 }
 
 .ui-dialog-titlebar {
-    font-size: 20px;
+    font-size: 25px;
     border-bottom; 0px;
+    color: white;
 }
+
+.ui-widget-content {
+    font-size: 20px;
+    color: white;
+}
+/*
+.ui-dialog-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 11px;
+  height: 11px;
+}
+
+.ui-dialog-content::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .5);
+}*/
 
 .ui-dialog-buttonpane {
     border: none;
@@ -109,4 +122,13 @@ a:link {
 
 .hidden {
     display: none;
+}
+
+.blurEffect {
+    text-shadow: 0px 0px 10px #000000;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

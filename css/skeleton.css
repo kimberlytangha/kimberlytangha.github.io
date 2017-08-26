@@ -72,6 +72,10 @@
         width: 55px;
         height: 55px;
     }
+   /* .dialog {
+        min-width:
+        min-height:
+    }*/
 }
 
 /* For devices larger than 550px (phablet) */
@@ -165,6 +169,11 @@
         width: 65px;
     	height: 65px;
     }
+   /* .dialog {
+        max-width:
+        max-height:
+    }*/
+
 }
 
 

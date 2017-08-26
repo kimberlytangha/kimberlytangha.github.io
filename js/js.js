@@ -57,7 +57,7 @@ txtRotateInit.prototype.tick = function() {
 	} else if (this.isDeleting && this.txt === '') {
 		this.isDeleting = false;
 		this.loopNum++;
-		delta = 200;
+		delta = 100;
 	}
 
 	setTimeout(function() {
@@ -69,7 +69,7 @@ var textTyping = function() {
 	var elements = document.getElementsByClassName("txt-rotate");
 	for (var i=0; i<elements.length; i++) {
 		var toRotate = $keyWords;
-		var period = 2000;
+		var period = 1000;
 		if (toRotate) {
 			new txtRotateInit(elements[i], toRotate, period);
 		}
@@ -86,12 +86,12 @@ $(document).ready(function() {
     textTyping();
 
     var blockMovements = function() {
-        var speed = 1700;
+        var speed = 500;
         var slowerSpeed = speed + 1200;
 
         $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);
         $(".body-description").animate({right: '0px'}, speed);
-        $(".body-info").animate({top: '0px'}, speed);
+        $(".body-info").animate({top: '0px'}, speed );
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
@@ -101,8 +101,8 @@ $(document).ready(function() {
             autoOpen: false,
             modal: true,
             show: {
-                effect: "fade",
-                duration: 700
+                effect: "puff",
+                duration: 500
             },
             height: 500,
             width: 700,
@@ -114,7 +114,11 @@ $(document).ready(function() {
                     $( this ).dialog( "close" );
                   }
                 }
-            ],
+            ]
+/*
+            edits to be done
+            position => center of page
+            height/ width are functions of page size with min and max established*/
         });
     };
 
