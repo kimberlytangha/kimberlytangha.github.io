@@ -2,15 +2,19 @@ var $menuOpt = [ "Experience", "Projects", "Skills", "Hackathons", "Conferences"
 var $keyWords = [ "developer.", "hacker.", "student.", "disruptor.", "cyclist." ];
 
 var buildMenu = function(options) {
-	for(i = 0; i < $menuOpt.length; i++){
+	for(i = 0; i < options.length; i++){
 		// button tag
 		var title = options[i];
 		var $button = $('<li/>').addClass("button");
 		$(".buttons-container").append($button);
 
 		// icon
+		var idFormatted = "#" + options[i];
 		var $img = "img/" + title + ".png"
-		var $icon = $('<img/>').attr("src", $img).attr("id", title).addClass("button-icon");
+		var $icon = $('<img/>')
+		    .attr("src", $img)
+		    .attr("data-id", idFormatted)
+		    .addClass("button-icon");
 		$button.append($icon);
 
 		// label 
@@ -91,22 +95,37 @@ $(document).ready(function() {
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
-    var generatePopUp = function() {
-        $("#Hackathons").click(function () {
-            $("#dialog").dialog({
-                modal: true,
-                show: {
-                    effect: "fade",
-                    duration: 1000
-                },
-                height: 500,
-                width: 600
-            });
+    var generateDialogBox = function() {
+        var id = $(this).data('id');
+        $(".dialog").dialog({
+            autoOpen: false,
+            modal: true,
+            show: {
+                effect: "fade",
+                duration: 700
+            },
+            height: 500,
+            width: 700,
+            dialogClass: "no-close",
+            buttons: [
+                {
+                  text: "Close",
+                  click: function() {
+                    $( this ).dialog( "close" );
+                  }
+                }
+            ],
+        });
+    };
+
+    var dialogAnimation = function() {
+        $(".button-icon").click(function() {
+            var id = $(this).data('id');
+            $(id).dialog("open");
         });
     };
 
     blockMovements();
-    generatePopUp();
-
-
+    generateDialogBox();
+    dialogAnimation();
 });

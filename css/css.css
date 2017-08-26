@@ -3,7 +3,6 @@ body {
     background-color: rgb(45,45,45);
     background-image: url("../img/header-1.jpg");
     background-repeat: no-repeat;
-    background-color: rgb(45,45,45);
 }
 
 .body-info {
@@ -78,4 +77,36 @@ a:link {
 .highlight {
     font-weight: 700;
     color: rgb(70,181,117);
+}
+
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.ui-dialog, .ui-dialog-buttonpane, button.ui-button {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: rgb(140,140,140);
+}
+
+.ui-dialog {
+    font-size: 17px;
+}
+
+.ui-widget-header {
+    background: rgb(70,181,117);
+    margin: 5px;
+    border-color: rgb(70,181,117);
+}
+
+.ui-dialog-titlebar {
+    font-size: 20px;
+    border-bottom; 0px;
+}
+
+.ui-dialog-buttonpane {
+    border: none;
+}
+
+.hidden {
+    display: none;
 }
