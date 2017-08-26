@@ -57,7 +57,7 @@ txtRotateInit.prototype.tick = function() {
 	} else if (this.isDeleting && this.txt === '') {
 		this.isDeleting = false;
 		this.loopNum++;
-		delta = 100;
+		delta = 200;
 	}
 
 	setTimeout(function() {
@@ -86,7 +86,7 @@ $(document).ready(function() {
     textTyping();
 
     var blockMovements = function() {
-        var speed = 500;
+        var speed = 800;
         var slowerSpeed = speed + 1200;
 
         $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);

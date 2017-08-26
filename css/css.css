@@ -1,12 +1,13 @@
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+/*    change font type */
+    font-family: 'Courier New', Courier;
     background-color: rgb(45,45,45);
     background-image: url("../img/header-1.jpg");
     background-repeat: no-repeat;
 }
 
 .body-info {
-/*    outline: black dotted thick;*/
+   /* outline: black dotted thick;*/
     position: relative;
     color: white;
     text-shadow: 10px 10px 20px rgba(0,0,0, 1);
@@ -14,9 +15,9 @@ body {
 }
 
 .body-description {
-/*    outline: black dotted thick;*/
+    /*outline: black dotted thick;*/
     color: white;
-    text-shadow: 4px 4px 50px rgba(0,0,0,0.7);
+    text-shadow: 5px 5px 15px rgba(0,0,0,1);
     float: left;
     position: absolute;
     right: -800px;
@@ -32,7 +33,7 @@ li > img:hover {
 }
 
 .buttons-container {
-    /*outline: black dotted thick;*/
+   /* outline: black dotted thick;*/
     width: 100%;
     margin: auto;
     text-align: center;
@@ -43,13 +44,14 @@ li > img:hover {
 }
 
 .button-label {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Courier New', Courier;
     color: rgb(70,181,117);
     align: center;
+    letter-spacing: 3px;
 }
 
 .social-container {
-/*    outline: black dotted thick;*/
+    /*outline: black dotted thick;*/
     text-align: center;
     margin-top: 50px;
     height: 100px;
@@ -70,13 +72,10 @@ a:link {
     text-decoration: none;
 }
 
-.spacer {
-    min-height:45px;
-}
-
 .highlight {
     font-weight: 700;
     color: rgb(70,181,117);
+    text-shadow: 10px 10px 20px rgba(0,0,0,.5);
 }
 
 .no-close, .ui-dialog-titlebar-close {

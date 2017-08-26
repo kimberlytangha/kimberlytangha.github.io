@@ -51,17 +51,18 @@
         background-size: 100% 300px;
     }
     .body-name {
-      font-size: 85px;
+      padding-top: 50px;
+      font-size: 65px;
     }
     .body-tagline {
-      font-size: 60px;
+      font-size: 40px;
     }
     .body-description {
-      font-size: 20px;
       padding-top: 30px;
+      font-size: 16px;
     }
     .button-label {
-      font-size: 25px;
+      font-size: 17px;
     }
     .button-icon {
         width: 70px;
@@ -72,6 +73,10 @@
         width: 55px;
         height: 55px;
     }
+    .spacer {
+        min-height:70px;
+    }
+
    /* .dialog {
         min-width:
         min-height:
@@ -148,17 +153,18 @@
         background-size: 100% 350px;
     }
     .body-name {
-      font-size: 100px;
+      padding-top: 45px;
+      font-size: 75px;
     }
     .body-tagline {
-      font-size: 80px;
+      font-size: 50px;
     }
     .body-description {
-      padding-top: 70px;
-      font-size: 22px;
+      padding-top: 50px;
+      font-size: 17px;
     }
     .button-label {
-      font-size: 25px;
+      font-size: 18px;
     }
     .button-icon {
     	width: 100px;
@@ -169,6 +175,10 @@
         width: 65px;
     	height: 65px;
     }
+    .spacer {
+        min-height:100px;
+    }
+
    /* .dialog {
         max-width:
         max-height:
