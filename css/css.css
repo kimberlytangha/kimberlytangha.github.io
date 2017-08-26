@@ -83,19 +83,18 @@ a:link {
 }
 
 .ui-dialog, .ui-dialog-buttonpane, button.ui-button {
-    font-family: 'Open Sans Condensed', sans-serif;
-    background: rgb(140,140,140);
+    font-family: 'Courier New', Courier;
+    background: rgb(145,145,145);
 }
 
 .ui-widget-header {
-    background: rgb(70,181,117);
+    background: rgb(144,210,172);
     margin: 5px;
-    border-color: rgb(70,181,117);
+    border-color: rgb(144,210,172);
 }
 
 .ui-dialog-titlebar {
     font-size: 25px;
-    border-bottom; 0px;
     color: white;
 }
 
@@ -103,17 +102,18 @@ a:link {
     font-size: 20px;
     color: white;
 }
-/*
+
 .ui-dialog-content::-webkit-scrollbar {
   -webkit-appearance: none;
-  width: 11px;
-  height: 11px;
+  margin-left:5px;
+  width: 8px;
+  height: 6px;
 }
 
 .ui-dialog-content::-webkit-scrollbar-thumb {
   border-radius: 3px;
   background-color: rgba(0, 0, 0, .5);
-}*/
+}
 
 .ui-dialog-buttonpane {
     border: none;
