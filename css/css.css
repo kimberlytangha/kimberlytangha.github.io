@@ -17,10 +17,12 @@ body {
 .body-description {
     /*outline: black dotted thick;*/
     color: white;
-    text-shadow: 5px 5px 15px rgba(0,0,0,1);
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    font-weight: 900;
     float: left;
     position: absolute;
     right: -800px;
+/*    background-color: rgba(0,0,0,1);*/
 }
 
 li > img:hover {
