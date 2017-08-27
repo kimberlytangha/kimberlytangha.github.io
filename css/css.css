@@ -1,5 +1,4 @@
 body {
-/*    change font type */
     font-family: 'Courier New', Courier;
     background-color: rgb(45,45,45);
     background-image: url("../img/header-1.jpg");
@@ -22,7 +21,6 @@ body {
     float: left;
     position: absolute;
     right: -800px;
-/*    background-color: rgba(0,0,0,1);*/
 }
 
 li > img:hover {
@@ -55,7 +53,7 @@ li > img:hover {
 .social-container {
     /*outline: black dotted thick;*/
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     height: 100px;
     float: left;
     position: relative;
@@ -70,6 +68,7 @@ li > img:hover {
 }
 
 .social-text-bottom {
+    margin-bottom:5px;
     color: rgb(160,160,160);
 }
 
@@ -131,10 +130,6 @@ a:link {
 
 .hidden {
     display: none;
-}
-
-.blurEffect {
-    text-shadow: 0px 0px 10px #000000;
 }
 
 hr {

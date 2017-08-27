@@ -1,25 +1,25 @@
 var $menuOpt = [ "Experience", "Projects", "Skills", "Hackathons", "Conferences" ];
-var $keyWords = [ "developer.", "hacker.", "student.", "disruptor.", "cyclist." ];
+var $keyWords = [ "developer.", "student.", "cyclist." ];
 
 var buildMenu = function(options) {
 	for(i = 0; i < options.length; i++){
 		// button tag
 		var title = options[i];
-		var $button = $('<li/>').addClass("button");
-		$(".buttons-container").append($button);
+		var button = $('<li/>').addClass("button");
+		$(".buttons-container").append(button);
 
 		// icon
 		var idFormatted = "#" + options[i];
-		var $img = "img/" + title + ".png"
-		var $icon = $('<img/>')
-		    .attr("src", $img)
+		var img = "img/" + title + ".png"
+		var icon = $('<img/>')
+		    .attr("src", img)
 		    .attr("data-id", idFormatted)
 		    .addClass("button-icon");
-		$button.append($icon);
+		button.append(icon);
 
 		// label 
-		var $label = "<br><label class='button-label'>" + title + "</label>"
-		$button.append($label);
+		var label = "<br><label class='button-label'>" + title + "</label>"
+		button.append(label);
     };
 };
 
@@ -86,7 +86,7 @@ $(document).ready(function() {
     textTyping();
 
     var blockMovements = function() {
-        var speed = 800;
+        var speed = 700;
         var slowerSpeed = speed + 1200;
 
         $(".buttons-container").animate({left: $(".buttons-container").parent().width() / 2 - $(".buttons-container").width() / 2 }, speed);
