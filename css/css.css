@@ -6,21 +6,15 @@ body {
 }
 
 .body-info {
-   /* outline: black dotted thick;*/
-    position: relative;
+  /*  outline: black dotted thick;*/
     color: white;
     text-shadow: 10px 10px 20px rgba(0,0,0, 1);
-    top: -500px;
 }
 
 .body-description {
-    /*outline: black dotted thick;*/
+/*    outline: black dotted thick;*/
     color: white;
     text-shadow: 5px 5px 10px rgba(0,0,0,1);
-    font-weight: 300;
-    float: left;
-    position: absolute;
-    right: -800px;
 }
 
 li > img:hover {
@@ -38,9 +32,7 @@ li > img:hover {
     margin: auto;
     text-align: center;
     word-wrap: break-word;
-    position: relative;
     float: left;
-    left: -1400px;
 }
 
 .button-label {
@@ -50,8 +42,12 @@ li > img:hover {
     letter-spacing: 3px;
 }
 
+.spacer {
+/*    outline: black dotted thick;*/
+}
+
 .social-container {
-    /*outline: black dotted thick;*/
+/*    outline: black dotted thick;*/
     text-align: center;
     margin-top: 40px;
     height: 100px;
