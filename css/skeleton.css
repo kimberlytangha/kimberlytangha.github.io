@@ -1183,6 +1183,40 @@ hr {
 * buttons section and style it there.
 *****/
 
+@media (min-width: 320px) {
+  /* Larger than mobile */
+    body {
+        background-size: 100% 175px;
+    }
+    .body-name {
+      padding: 50px 0px 0px 15px;
+      font-size: 40px;
+    }
+    .body-tagline {
+      padding: 0px 0px 0px 15px;
+      font-size: 20px;
+    }
+    .body-description {
+      padding: 30px 20px 0px 20px;
+      font-size: 20px;
+    }
+    .button-label {
+      font-size: 17px;
+    }
+    .button-icon {
+        width: 85px;
+        height: 85px;
+        margin: 15px 40px 0px 40px;
+    }
+    .social-icon {
+        width: 55px;
+        height: 55px;
+    }
+    .spacer {
+        min-height:0px;
+    }
+}
+
 @media (min-width: 400px) {
   /* Larger than mobile */
     body {
