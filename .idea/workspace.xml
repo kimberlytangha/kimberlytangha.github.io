@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="319a70e5-3f5e-45cb-a249-685af24e8ab7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skeleton.css" afterPath="$PROJECT_DIR$/css/skeleton.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -23,6 +22,19 @@
             <state relative-caret-position="-4">
               <caret line="1112" column="39" lean-forward="false" selection-start-line="1112" selection-start-column="39" selection-end-line="1112" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="72">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -57,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/skeleton.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="1364" column="22" lean-forward="false" selection-start-line="1364" selection-start-column="22" selection-end-line="1364" selection-end-column="22" />
+            <state relative-caret-position="292">
+              <caret line="1365" column="22" lean-forward="true" selection-start-line="1365" selection-start-column="22" selection-end-line="1365" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,8 +121,8 @@
       <find>space</find>
       <find>weight</find>
       <find>.section</find>
-      <find>font-weight: 200;</find>
       <find>height</find>
+      <find>font-weight: 200;</find>
     </findStrings>
     <replaceStrings>
       <replace>body-header-wrapper</replace>
@@ -139,7 +151,6 @@
         <option value="$PROJECT_DIR$/test-background.html" />
         <option value="$PROJECT_DIR$/peachykeen9.github.io.iml" />
         <option value="$PROJECT_DIR$/content.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/landing.html" />
@@ -149,6 +160,7 @@
         <option value="$PROJECT_DIR$/old/index_old.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
         <option value="$PROJECT_DIR$/css/skeleton.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -359,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504647163724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Min-width:320 set for mobile responsiveness edit 2">
+      <created>1504647565155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1504647565155</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -410,7 +429,8 @@
     <MESSAGE value="Mobile responsive works" />
     <MESSAGE value="renamed index file" />
     <MESSAGE value="Min-width:320 set for mobile responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Min-width:320 set for mobile responsiveness" />
+    <MESSAGE value="Min-width:320 set for mobile responsiveness edit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min-width:320 set for mobile responsiveness edit 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -689,23 +709,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/old/main.css" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="908">
@@ -780,9 +783,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/skeleton.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="1364" column="22" lean-forward="false" selection-start-line="1364" selection-start-column="22" selection-end-line="1364" selection-end-column="22" />
+        <state relative-caret-position="292">
+          <caret line="1365" column="22" lean-forward="true" selection-start-line="1365" selection-start-column="22" selection-end-line="1365" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
