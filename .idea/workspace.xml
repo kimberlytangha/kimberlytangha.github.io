@@ -30,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="72">
-                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504647565155</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed readme">
+      <created>1504648004332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504648004332</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +437,8 @@
     <MESSAGE value="renamed index file" />
     <MESSAGE value="Min-width:320 set for mobile responsiveness" />
     <MESSAGE value="Min-width:320 set for mobile responsiveness edit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Min-width:320 set for mobile responsiveness edit 2" />
+    <MESSAGE value="Changed readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -798,8 +806,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
             <folding />
           </first_editor>
           <second_editor />
