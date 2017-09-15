@@ -1,11 +1,8 @@
 # Welcome!
 Check out my [personal website](https://peachykeen9.github.io)!
 
-Tech Stack Below
-------------------------- 
 Basics:
-- HTML/ CSS
-- Javascript
+- HTML/ CSS/ JS
 
 Frameworks/ Tools: 
 - [Skeleton](http://getskeleton.com/) for mobile responsiveness

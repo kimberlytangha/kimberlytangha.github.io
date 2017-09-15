@@ -1,0 +1,9 @@
+- update content of dialog boxes
+
+- dialog boxes dynamically update according to content size
+
+- dialog boxes need to be mobile friendly
+
+- model projects view off
+ex.) https://impossible.com/labs/what
+
