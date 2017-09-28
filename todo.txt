@@ -4,6 +4,6 @@
 
 - dialog boxes need to be mobile friendly
 
-- model projects view off
+- model projects dialog boxes off this:
 ex.) https://impossible.com/labs/what
 
