@@ -1189,15 +1189,18 @@ hr {
         background-size: 100% 175px;
     }
     .body-name {
+      text-shadow: 5px 5px 7px rgba( 1, 1, 1, 1); /*enhancement shadow*/
       padding: 50px 0px 0px 15px;
       font-size: 40px;
+      font-weight: 550;
     }
     .body-tagline {
+      font-weight: 500;
       padding: 0px 0px 0px 15px;
-      font-size: 20px;
+      font-size: 25px;
     }
     .body-description {
-      padding: 30px 20px 0px 20px;
+      padding: 30px 30px 0px 30px;
       font-size: 20px;
     }
     .button-label {
@@ -1231,7 +1234,7 @@ hr {
       font-size: 30px;
     }
     .body-description {
-      padding: 30px 20px 0px 20px;
+      padding: 45px 35px 0px 35px;
       font-size: 20px;
     }
     .button-label {
