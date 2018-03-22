@@ -92,7 +92,7 @@ a:link {
 
 .dialog > label {
     font-weight: 600;
-    color: rgb(60,60,60);
+    color: rgb(70,70,70);
 }
 
 .ui-dialog, .ui-dialog-buttonpane, button.ui-button {
@@ -101,9 +101,9 @@ a:link {
 }
 
 .ui-widget-header {
-    background: rgb(144,210,172);
+    background: rgb(81, 150, 223);
     margin: 5px;
-    border-color: rgb(144,210,172);
+    border-color: rgb(81, 150, 223);
 }
 
 .ui-dialog-titlebar {
@@ -113,7 +113,7 @@ a:link {
 }
 
 .ui-widget-content {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
