@@ -1,5 +1,5 @@
 var $menuOpt = [ "Experience", "Skills", "Hackathons", "Conferences", "Projects" ];
-var $keyWords = [ "a developer.", "an engineer.", "a student.", "a cyclist." ];
+var $keyWords = [ "a developer.", "a student.", "an engineer.", "a cyclist." ];
 
 var buildMenu = function(options) {
 	for(i = 0; i < options.length; i++){
@@ -77,7 +77,7 @@ var textTyping = function() {
 	
 	var css = document.createElement("style");
 	css.type = "text/css";
-	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #58BC82 }";
+	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #5196DF }";
 	document.body.appendChild(css);
 };
 
