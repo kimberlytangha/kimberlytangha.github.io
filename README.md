@@ -1,5 +1,3 @@
-##Kimberly Ha 
-
 [Website is here :)](https://peachykeen9.github.io)
 
 Basics:
