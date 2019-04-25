@@ -151,3 +151,11 @@ hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.text-highlight {
+    color: rgb(50, 50, 50);
+}
+
+.text-course-highlight {
+    color: rgb(210, 210, 210);
+}
