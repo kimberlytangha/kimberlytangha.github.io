@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier;
-    background-color: rgb(45,45,45);
+    background-color: rgb(30,30,30);
     background-image: url("../img/header-1.jpg");
     background-repeat: no-repeat;
 }
@@ -15,6 +15,11 @@ body {
 /*    outline: black dotted thick;*/
     color: white;
     text-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+/* used to highlight body description */
+.body-text-aboutme {
+    background-color: rgba(30,30,30, 0.5);
 }
 
 li > img:hover {
@@ -44,6 +49,11 @@ a:focus {
     color: rgb(81, 150, 223);
     align: center;
     letter-spacing: 3px;
+}
+
+.button-icon:hover {
+    /* changes color of image when highlighted */
+    filter: invert(53%) sepia(98%) saturate(824%) hue-rotate(186deg) brightness(89%) contrast(95%);
 }
 
 .spacer {
