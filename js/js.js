@@ -1,4 +1,4 @@
-var $menuOpt = [ "Experience", "Skills", "Hackathons", "Conferences" ];
+var $menuOpt = [ "Experience", "Awards", "Conferences", "Skills"];
 var $keyWords = [ "a developer.", "an engineer." ];
 
 var buildMenu = function(options) {
