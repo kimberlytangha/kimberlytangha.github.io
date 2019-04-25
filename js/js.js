@@ -95,8 +95,35 @@ $(document).ready(function() {
         $(".social-container").animate({bottom: '0px'}, slowerSpeed);
     }
 
+    var computeWidth = function() {
+    	var width = $(window).width(); 
+    	switch(true) {
+    		case width < 720:
+    			return width *0.90;
+    		case width < 960:
+    			return 600;
+    		default: 
+    			return 700;
+    	}
+    }
+
+    var computeHeight = function() {
+    	var height = $(window).height(); 
+    	
+    	switch(true) {
+    		case height < 700:
+    			return height * 0.90;
+    		case height < 1200:
+    			return 500;
+    		default: 
+    			return 700;
+    	}
+    }
+
     var generateDialogBox = function() {
         var id = $(this).data('id');
+        // console.log($(window).height());
+        // console.log($(window).width());
         $(".dialog").dialog({
             autoOpen: false,
             modal: true,
@@ -104,8 +131,8 @@ $(document).ready(function() {
                 effect: "puff",
                 duration: 500
             },
-            height: 500,
-            width: 700,
+            height: computeHeight(),
+            width: computeWidth(),
             dialogClass: "no-close",
             buttons: [
                 {
@@ -115,10 +142,6 @@ $(document).ready(function() {
                   }
                 }
             ]
-/*
-            edits to be done
-            position => center of page
-            height/ width are functions of page size with min and max established*/
         });
     };
 
