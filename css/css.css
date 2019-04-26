@@ -56,10 +56,6 @@ a:focus {
     filter: invert(53%) sepia(98%) saturate(824%) hue-rotate(186deg) brightness(89%) contrast(95%);
 }
 
-.spacer {
-/*    outline: black dotted thick;*/
-}
-
 .social-container {
 /*    outline: black dotted thick;*/
     text-align: center;
@@ -158,4 +154,8 @@ hr {
 
 .text-course-highlight {
     color: rgb(210, 210, 210);
+}
+
+.spacer {
+    min-height: 20px;
 }
