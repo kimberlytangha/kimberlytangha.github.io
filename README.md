@@ -1,6 +1,6 @@
 [Website :)](https://kimberlytangha.github.io)
 
-Basics:
+Built using
 - HTML/ CSS/ JS
 - [Skeleton](http://getskeleton.com/) for mobile responsiveness
 - JQuery 

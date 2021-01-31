@@ -1,5 +1,5 @@
 var $menuOpt = [ "Experience", "Awards", "Conferences", "Skills"];
-var $keyWords = ["an engineer.", "a cyclist."];
+var $keyWords = ["an engineer."];
 
 var buildMenu = function(options) {
 	for(i = 0; i < options.length; i++){
@@ -122,8 +122,6 @@ $(document).ready(function() {
 
     var generateDialogBox = function() {
         var id = $(this).data('id');
-        // console.log($(window).height());
-        // console.log($(window).width());
         $(".dialog").dialog({
             autoOpen: false,
             modal: true,
